@@ -69,13 +69,13 @@
       /* box 2 = blue */
       .box2 { background-color: #E3F2FD; order: 2; }
       /* box 3 = green */
-      .box3 { background-color: #E8F5E9; order: 3; }
+      .box3 { background-color: #E8F5E9; order: 3; margin-top: 2em; }
       /* box 4 = green */
-      .box4 { background-color: #E8F5E9; order: 4; }
+      .box4 { background-color: #E8F5E9; order: 4; margin-top: 2em; }
       /* box 5 = orange */
-      .box5 { background-color: #FFF3E0; order: 5; }
+      .box5 { background-color: #FFF3E0; order: 5; margin-top: 2em; }
       /* box 6 = orange */
-      .box6 { background-color: #FFF3E0; order: 6; }
+      .box6 { background-color: #FFF3E0; order: 6; margin-top: 2em; }
 
       @media (max-width: 767px) {
 
@@ -83,8 +83,9 @@
           flex-basis: 100%;
         }
 
-        .box3 { order: 4; }
+        .box3 { order: 4; margin-top: 0; }
         .box4 { order: 3; }
+        .box6 { margin-top: 0; }
       }
 
       @media (max-width: 400px) {
